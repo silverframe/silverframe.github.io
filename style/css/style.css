@@ -67,8 +67,23 @@
   transform: translate(-50%, -50%);
 }
 
+.web-links1 {
+  font-family: 'Oxygen', sans-serif;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .hyper-links {
   color: white;
+}
+
+.hyper-links1 {
+  color: black;
 }
 
 li {
@@ -79,6 +94,7 @@ li {
 ul.web-links {
   color: white;
 }
+
 
 
 p {
@@ -157,7 +173,7 @@ p {
 
 #words-aboutme-write > p {
   line-height: 30px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 #color-portfolio {
@@ -368,7 +384,7 @@ h1 {
 }
 
 #color-contact {
-  background-color: #0D7E8F;
+  background-color: #202529;
 }
 
 #description-contact {

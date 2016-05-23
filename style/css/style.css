@@ -1,0 +1,360 @@
+.banner {
+  width: 100%;
+  height: 100vh;
+}
+
+#top-banner {
+  /*background-color: #045F6D;*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0px, rgba(0, 0, 0, 0.6) 100%), url('../images/notebook-desk.jpeg');
+  position: relative;
+  background-size: cover;
+}
+
+#header-main {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#header-name {
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.web-links {
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hyper-links {
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+ul.web-links {
+  color: white;
+}
+
+
+p {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  /*padding: 0px 30px 0px 30px;*/
+
+
+}
+
+.half-and-half {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /*height: 100vh;*/
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+.half1 {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+
+.half2 {
+  width: 50%;
+  overflow: hidden;
+}
+
+.header {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#header-aboutme {
+  color: white;
+}
+
+
+#color-aboutme {
+  background-color: #202529;
+}
+
+#words-aboutme {
+  background-color: #DFDFDF;
+  height: 100vh;
+}
+
+#words-aboutme-write {
+  margin: 70px 80px 60px 80px;
+
+}
+
+#words-aboutme-write > h4 {
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+
+
+#color-portfolio {
+
+}
+
+#words-portfolio {
+  background-color: #2F373E;
+  height: 400vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  max-width: 100%;
+  max-height: 25%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.pict-container {
+  overflow: hidden;
+}
+
+.picture:hover {
+  /*transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);*/
+}
+
+
+.project-links {
+  line-height: 70px;
+  text-decoration: none;
+  margin: 0 auto;
+  opacity: 0;
+  transition: all 1s;
+  -webkit-transition: all 1s;*/
+
+}
+
+.picture:hover .project-links {
+  opacity: 1;
+}
+
+.words {
+  margin-top: 100px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5),0 0 10px rgba(0,0,0,0.5);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+
+}
+
+
+.words:hover {
+  /*opacity: 1;*/
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.words > p:first-child {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.words > p {
+  margin: 10px;
+}
+
+.words > a {
+  color: white;
+}
+
+.project-links {
+  margin: 30px;
+}
+
+.project-links > a {
+  margin: 20px;
+  font-size: 30px;
+}
+
+#battleship-img {
+  background-image: url('../images/sea.png');
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  /*position: absolute;*/
+  overflow: hidden;
+}
+
+#battleship-img:hover {
+  transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+}
+
+/*.rejection {
+  background-image: url('../images/field.jpg');
+  background-size: cover;
+  overflow: hidden;
+}*/
+/*
+#rejection-img {
+  max-width: 100%;
+}*/
+
+#rejection-img {
+  background-image: url('../images/field.jpg');
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  /*position: absolute;*/
+  overflow: hidden;
+}
+
+#rejection-img:hover {
+  transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+}
+
+/*.violet {
+  background-image: url('../images/travel-img.png');
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}*/
+
+#violet-img {
+  background-image: url('../images/travel-img.png');
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  /*position: absolute;*/
+  overflow: hidden;
+}
+
+#violet-img:hover {
+  transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+}
+
+/*.cloud {
+  background-image: url('../images/cloud1.jpg');
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+#cloud-img {
+  max-width: 100%;
+}*/
+
+#cloud-img {
+  background-image: url('../images/cloud1.jpg');
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  /*position: absolute;*/
+  overflow: hidden;
+}
+
+#cloud-img:hover {
+  transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+}
+
+#header-contact {
+  color: white;
+}
+
+#color-contact {
+  background-color: #0D7E8F;
+}
+
+#footer {
+  background-color: #2F373E;
+}

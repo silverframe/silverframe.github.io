@@ -1,0 +1,33 @@
+@media screen and (max-width: 969px) and (min-width: 400px) {
+
+  .half1 {
+    width: 100%:
+    height:100vh;
+    position: relative;
+  }
+
+  .half2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  #header-main {
+
+  }
+
+  #about-me {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #portfolio {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact-me {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

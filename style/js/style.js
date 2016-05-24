@@ -1,7 +1,7 @@
  $(function(){
        $("#header-main").typed({
-         strings: ["@stefanie^500seah"],
-         typeSpeed: 60,
+         strings: ["hello there", "@stefanie^500seah"],
+         typeSpeed: 80,
          startDelay: 1000,
 
        });

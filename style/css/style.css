@@ -109,19 +109,31 @@ p {
 
 }
 
-.half-and-half {
+/*.half-and-half {
   display: flex;
   flex-direction: row;
   width: 100%;
   font-family: 'Oxygen', sans-serif;
 
-}
+}*/
 
 @media all and (max-width: 970px) and (min-width: 700px) {
+  .half-and-half {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+
+  }
   .half1 {
     width: 100%;
     height: 100vh;
     position: relative;
+  }
+
+  .half2 {
+    width: 100%;
+    overflow: hidden;
   }
 
   #words-aboutme {
@@ -132,11 +144,22 @@ p {
 }
 
 @media all and (max-width: 700px) {
+  .half-and-half {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+  }
 
   .half1 {
     width: 100%;
     height: 100vh;
     position: relative;
+  }
+
+  .half2 {
+    width: 100%;
+    overflow: hidden;
   }
 
   #words-aboutme {
@@ -147,10 +170,21 @@ p {
 }
 
 @media all and (min-width: 970px) {
+  .half-and-half {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+  }
   .half1 {
     width: 50%;
     height: 100vh;
     position: relative;
+  }
+
+  .half2 {
+    width: 50%;
+    overflow: hidden;
   }
 
   #words-aboutme {
@@ -160,10 +194,10 @@ p {
 }
 
 
-.half2 {
+/*.half2 {
   width: 50%;
   overflow: hidden;
-}
+}*/
 
 .header {
   font-family: 'Oxygen', sans-serif;

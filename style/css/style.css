@@ -1,6 +1,5 @@
 html {
   max-width: 1440px;
-  min-width: 600px; 
 }
 
 .banner {
@@ -118,31 +117,48 @@ p {
 
 }
 
-@media screen and (max-width: 970px) {
+@media all and (max-width: 970px) and (min-width: 700px) {
   .half1 {
     width: 100%;
     height: 100vh;
     position: relative;
   }
+
+  #words-aboutme {
+    background-color: #DFDFDF;
+    height: 100vh;
+  }
+
 }
 
-@media screen and (min-width: 970px) {
+@media all and (max-width: 700px) {
+
+  .half1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  #words-aboutme {
+    background-color: #DFDFDF;
+    height: 150vh;
+  }
+
+}
+
+@media all and (min-width: 970px) {
   .half1 {
     width: 50%;
     height: 100vh;
     position: relative;
   }
+
+  #words-aboutme {
+    background-color: #DFDFDF;
+    height: 150vh;
+  }
 }
 
-
-/*
-
-.half1 {
-  width: 50%;
-  height: 100vh;
-  position: relative;
-
-}*/
 
 .half2 {
   width: 50%;
@@ -180,10 +196,10 @@ p {
 }
 
 
-#words-aboutme {
+/*#words-aboutme {
   background-color: #DFDFDF;
   height: 150vh;
-}
+}*/
 
 #words-aboutme-write {
   margin: 70px 120px 60px 120px;

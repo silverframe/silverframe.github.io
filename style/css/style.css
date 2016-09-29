@@ -1,5 +1,6 @@
 html {
   max-width: 1440px;
+  min-width: 600px; 
 }
 
 .banner {
@@ -113,17 +114,35 @@ p {
   display: flex;
   flex-direction: row;
   width: 100%;
-  /*height: 100vh;*/
   font-family: 'Oxygen', sans-serif;
 
 }
+
+@media screen and (max-width: 970px) {
+  .half1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .half1 {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+
+/*
 
 .half1 {
   width: 50%;
   height: 100vh;
   position: relative;
 
-}
+}*/
 
 .half2 {
   width: 50%;
